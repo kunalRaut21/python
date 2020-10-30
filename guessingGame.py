@@ -1,13 +1,13 @@
 #python 3.7.1
 import random
 trials=0
-r=random.randrange(1,18)
+r=random.randrange(1,30)
 
 def left():
-  print("Only",9-(trials+1),"Attempt Left !! ")
+  print("Only",10-(trials+1),"Attempt Left !! ")
   
 
-while trials<9:
+while trials<10:
   n=int(input("Guess the no:"))
   if n<18:
     if r==n:
